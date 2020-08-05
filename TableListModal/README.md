@@ -1,17 +1,20 @@
-# @umi-blocks/ant-design-pro/tablelist
+## 介绍
 
-TableList
+TableListModal是封装的基本表格，弹窗表单的形式进行数据的新建、编辑，适用于数据较少的表单情况。
 
-## Usage
+## 使用
 
+基本使用
 ```sh
-umi block add ant-design-pro/TableList
+umi block add https://github.com/yautah/pro-blocks/TableListModal 
 ```
 
-## SNAPSHOT
+指定page，生成js文件
+```sh
+umi block add https://github.com/yautah/pro-blocks/TableListModal --path=/members --js
+```
 
-![SNAPSHOT](./snapshot.png)
+## 说明
 
-## LICENSE
-
-MIT
+执行block add命令后，目标path文件中会生成对应的文件。
+config.js文件中为对应的router配置和menu的locals配置。
