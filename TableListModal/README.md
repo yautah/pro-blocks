@@ -17,4 +17,8 @@ umi block add https://github.com/yautah/pro-blocks/TableListModal --path=/member
 ## 说明
 
 执行block add命令后，目标path文件中会生成对应的文件。
-config.js文件中为对应的router配置和menu的locals配置。
+config.js文件中为对应的router配置和menu的locals配置，根据实际情况拷贝至antd的route配置和locals配置。
+
+## 已知问题
+
+Hash History情况下，重新刷新当前列表，history的push到同一路径可能会有问题。
