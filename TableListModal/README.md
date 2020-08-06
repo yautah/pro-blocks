@@ -6,12 +6,12 @@ TableListModal是封装的基本表格，弹窗表单的形式进行数据的新
 
 基本使用
 ```sh
-umi block add https://github.com/yautah/pro-blocks/TableListModal 
+umi block add https://github.com/yautah/pro-blocks/tree/master/TableListModal 
 ```
 
 指定page，生成js文件
 ```sh
-umi block add https://github.com/yautah/pro-blocks/TableListModal --path=/members --js
+umi block add https://github.com/yautah/pro-blocks/tree/master/TableListModal --path=/path --js
 ```
 
 ## 说明
