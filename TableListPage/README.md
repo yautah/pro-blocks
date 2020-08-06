@@ -6,12 +6,12 @@ TableListPage是封装的基本表格列表，包含数据查询、搜索、翻�
 
 基本使用
 ```sh
-umi block add https://github.com/yautah/pro-blocks/TableListPage
+umi block add https://github.com/yautah/pro-blocks/tree/master/TableListPage
 ```
 
 指定page，生成js文件
 ```sh
-umi block add https://github.com/yautah/pro-blocks/TableListPage --path=/members --js
+umi block add https://github.com/yautah/pro-blocks/tree/master/TableListPage --path=/path --js
 ```
 
 ## 说明
