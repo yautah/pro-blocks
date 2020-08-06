@@ -1,26 +1,49 @@
 # pro-blocks
 
-![](https://badgen.net/badge/icon/Ant%20Design?icon=https://gw.alipayobjects.com/zos/antfincdn/Pp4WPgVDB3/KDpgvguMpGfqaHPjicRK.svg&label) [![Build Status](https://dev.azure.com/chenshuai2144/pro-blocks/_apis/build/status/ant-design.pro-blocks?branchName=master)](https://dev.azure.com/chenshuai2144/pro-blocks/_build/latest?definitionId=3&branchName=master)
+fork 自 AntDesign 的 pro-blocks。使用区块可以快速生成列表脚手架，区块相关概念参见：
 
-Ant Design Pro for Umi blocks.
+[Ant Design Pro V4](https://github.com/ant-design/ant-design-pro)
+[UmiJS 区块](https://umijs.org/zh/guide/block.html#%E5%8C%BA%E5%9D%97%E5%BC%80%E5%8F%91)
+[Ant Design Pro Blocks](https://github.com/ant-design/pro-blocks)
 
-> [Ant Design Pro V4](https://github.com/ant-design/ant-design-pro/issues/3143) official blockchain
 
-## usage
+## 使用
 
 ```shell
 umi block add [block github url]
 ```
 
-You can visit umi [doc](https://umijs.org/guide/block.html) to learn more about umi block.
 
-## contribution
-
-Enter the name of the block to be developed
+## 开发和调试
 
 ```shell
 npm install
 npm run start 'block_name'
 ```
 
-In complex TypeScript definitions, vscode may crash or tslint report errors. You can restart TypeScript service by "ctrl + shift + p> reload window"
+## 扩展区块
+
+### TableListModal 
+
+基本表格列表，弹窗进行数据的新增、编辑，适用于简单表单的数据列表。更多说明见： [TableListModal](https://github.com/yautah/pro-blocks/tree/master/TableListModal). 
+
+
+```bash
+umi block add https://github.com/yautah/pro-blocks/tree/master/TableListModal --path=/path --js
+```
+
+
+### TableListPage
+
+基本表格列表，跳转新路由的方式进行数据的新增、编辑，适用于表单较复杂的数据列表。更多说明见： [TableListPage](https://github.com/yautah/pro-blocks/tree/master/TableListPage). 
+
+
+```bash
+umi block add https://github.com/yautah/pro-blocks/tree/master/TableListPage --path=/path --js
+```
+
+
+
+
+
+
