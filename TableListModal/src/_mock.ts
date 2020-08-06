@@ -46,9 +46,9 @@ async function getRecords(req, res, u) {
     realUrl = req.url
   }
 
-  const { current = 1, pageSize = 10 } = req.query
+  const { pageNo = 1, pageSize = 10 } = req.query
   const params = parse(realUrl, true).query
-  let dataSource = [...tableListDataSource].slice((current - 1) * pageSize, current * pageSize)
+  let dataSource = [...tableListDataSource].slice((pageNo - 1) * pageSize, pageNo * pageSize)
 
   if (params.sorter) {
     const sort = params.sorter.split('|')
