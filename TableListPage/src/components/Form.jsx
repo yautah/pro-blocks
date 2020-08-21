@@ -62,7 +62,6 @@ const TableForm = props => {
       form={form}
       size="default"
       {...layout}
-      form={form}
       initialValues={{}}
       onFinish={onFinish}
       onFinishFailed={onFinishFailed}>
